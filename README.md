@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Run on docker
+
+```
+docker-compose up
+```
+
+## Format on save VSCode
+
+Install the Prettier & Eslint plugins
+
+Then add this to your VSCode settings
+
+```JSON
+{
+    "editor.codeActionsOnSave": {"source.fixAll.eslint": true},
+    "editor.formatOnSave": true
+}
+```
+
 ## Getting Started
 
 First, run the development server:
